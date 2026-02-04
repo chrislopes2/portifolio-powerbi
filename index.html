@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Power BI - [Seu Nome]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 2px solid #007acc;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #007acc;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cfd8dc;
+    }
+
+    section.portfolio {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.7);
+    }
+
+    .card h2 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #b0b0b0;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #007acc;
+      font-weight: 700;
+      border: 2px solid #007acc;
+      padding: 8px 20px;
+      border-radius: 6px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #007acc;
+      color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 20px;
+      background-color: #1f1f1f;
+      color: #e0e0e0;
+      margin-top: 50px;
+      border-top: 2px solid #007acc;
+    }
+
+    footer a {
+      color: #007acc;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="sua-foto.jpg" alt="Foto de [Seu Nome]">
+    <h1>[Seu Nome]</h1>
+    <p>Especialista em Power BI | Portfólio Executivo</p>
+  </header>
+
+  <section class="portfolio">
+    <div class="card">
+      <h2>Dashboard 1</h2>
+      <p>Descrição breve do dashboard 1.</p>
+      <a href="LINK_DO_POWER_BI_1" target="_blank">Visualizar</a>
+    </div>
+    <div class="card">
+      <h2>Dashboard 2</h2>
+      <p>Descrição breve do dashboard 2.</p>
+      <a href="LINK_DO_POWER_BI_2" target="_blank">Visualizar</a>
+    </div>
+    <div class="card">
+      <h2>Dashboard 3</h2>
+      <p>Descrição breve do dashboard 3.</p>
+      <a href="LINK_DO_POWER_BI_3" target="_blank">Visualizar</a>
+    </div>
+    <!-- Adicione mais cards conforme necessário -->
+  </section>
+
+  <footer>
+    &copy; 2026 [Seu Nome] | <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">LinkedIn</a>
+  </footer>
+
+</body>
+</html>
